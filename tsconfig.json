@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "target": "ES2022",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "noImplicitAny": true,
+        "strict": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "skipLibCheck": true
+    },
+    "include": ["./src/**/*", "./tsdown.config.mts"]
+}
